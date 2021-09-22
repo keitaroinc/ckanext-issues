@@ -10,8 +10,10 @@ This extension works with CKAN 2.9+.
 
 ## Installation
 
-To install the plugin, enter your virtualenv and install the source:
+To install the plugin, enter your virtualenv and install from pip or source:
 
+    pip install ckanext-isssues
+   
     pip install -e git+http://github.com/keitaroinc/ckanext-issues
 
 Create the necessary tables:

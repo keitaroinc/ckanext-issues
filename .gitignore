@@ -4,6 +4,7 @@
 .DS_Store
 .coverage
 .noseids
+dist
 test-custom.ini
 custom-test-sqlite.ini
 issue-test.db

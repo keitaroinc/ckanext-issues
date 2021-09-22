@@ -66,13 +66,12 @@ setup(
     # What does your project relate to?
     keywords='''CKAN ckanext issues''',
 
-    packages=find_packages(exclude=['tests']),
+    packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     namespace_packages=['ckanext', 'ckanext.issues'],
-    package_data={'ckanext.issues': ['public/ckanext-issues/*.js',
-                                     'public/ckanext-issues/css/*.css',
-                                     'public/ckanext-issues/images/*.png',
-                                     'templates/*.html']},
+
     include_package_data=True,
+    package_data={},
+
     zip_safe=False,
     install_requires=[
         'enum34',

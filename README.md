@@ -1,4 +1,4 @@
-[![CI Actions Status](https://github.com/keitaroinc/ckanext-issues/workflows/CI/badge.svg)](https://github.com/keitaroinc/ckanext-issues/actions) [![Coverage Status](https://coveralls.io/repos/github/keitaroinc/ckanext-issues/badge.svg?branch=master)](https://coveralls.io/github/keitaroinc/ckanext-issues?branch=master) [![Python](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org) [![CKAN](https://img.shields.io/badge/ckan-2.9-red)](https://www.ckan.org)
+[![CI Actions Status](https://github.com/keitaroinc/ckanext-issues/workflows/CI/badge.svg)](https://github.com/keitaroinc/ckanext-issues/actions) [![Coverage Status](https://coveralls.io/repos/github/keitaroinc/ckanext-issues/badge.svg?branch=master)](https://coveralls.io/github/keitaroinc/ckanext-issues?branch=master) [![Pypi](https://img.shields.io/pypi/v/ckanext-issues)](https://pypi.org/project/ckanext-issues) [![Python](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org) [![CKAN](https://img.shields.io/badge/ckan-2.9-red)](https://www.ckan.org)
 # CKAN Issues Extension
 
 This extension allows users to to report issues with datasets in a CKAN
@@ -108,7 +108,7 @@ Normal requirements for CKAN Extensions (including an installation of CKAN and
 its dev requirements). Contributions welcome.
 
 ### Testing with Postgres
-To run full production tests on postgres run. These are the tests that the travis build will run
+To run full production tests on postgres run. These are the tests that git actions will run
 
     pytest --ckan-ini=test.ini ckanext/issues/tests
     

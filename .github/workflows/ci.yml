@@ -31,8 +31,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - ckan-version: "2.9"
-            solr-image: "ckan/ckan-solr:2.9"
+          # CKAN 2.9 is not tested here: it is end of life, and the Alpine based
+          # ckan-dev:2.9 image cannot run the Node version used by current
+          # GitHub runners ("Error relocating .../node: pthread_getname_np").
           - ckan-version: "2.10"
             solr-image: "ckan/ckan-solr:2.10-solr9"
           - ckan-version: "2.11"
